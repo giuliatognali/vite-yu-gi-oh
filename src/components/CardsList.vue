@@ -10,9 +10,11 @@ export default {
 </script>
 
 <template>
-    <div>
-        CONTENITORE CARTE
+<div class="row row-cols-5 mx-0">
+    <div class="col px-0">
         <CardApp />
+
+    </div>
     </div>
 </template>
 
