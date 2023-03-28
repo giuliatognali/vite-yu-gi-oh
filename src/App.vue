@@ -1,15 +1,18 @@
 <script>
-import HelloApp from './components/HelloApp.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 export default {
   name: 'App',
   components: {
-    HelloApp
+    AppHeader,
+    AppMain
   }
 }
 </script>
 
 <template>
-  <HelloApp />
+<AppHeader />
+<AppMain />
 </template>
 
 <style lang="scss" scoped></style>
