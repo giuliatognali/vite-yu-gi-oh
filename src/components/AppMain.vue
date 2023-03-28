@@ -16,18 +16,24 @@ export default {
 <template>
     <div class="ms-container pt-1">
         <CardSelect />
+        <div class="small-container p-5">
         <CardCounter />
         <CardsList />
+    </div>
     </div>
 </template>
 
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/_partial/variables' as *;
 .ms-container {
-    height: 100vh;
-    background-color: #d48f38;
-    padding: 0 160px;
+    background-color: $bg-color;
+    padding: 0 100px;
+    .small-container{
+        background-color: white;
+
+    }
 
 }
 </style>
