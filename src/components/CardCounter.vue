@@ -2,12 +2,11 @@
 import { store } from '../store';
 export default {
     name: 'CardCounter',
-    data(){
-        return{
+    data() {
+        return {
             store
         }
     }
-
 }
 </script>
 <template>

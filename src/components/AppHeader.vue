@@ -22,7 +22,7 @@
     height: 105px;
     padding: 10px;
     .logo{
-        height: 20px;
+        height: 30px;
         padding: 0 30px;
         img{
             height: 100%;

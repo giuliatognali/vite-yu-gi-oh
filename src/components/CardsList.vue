@@ -9,13 +9,12 @@ export default {
     },
     data() {
         return {
-            store,
-            characters: []
+            store
         }
     },
     created() {
         axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php').then((response) => {
-            console.log(response);
+            //console.log(response);
             this.store.characters = response.data.data;
             this.store.charactersFound = response.data.data.length;
             
