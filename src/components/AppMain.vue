@@ -5,8 +5,8 @@ import CardCounter from './CardCounter.vue';
 export default {
     name: 'AppMain',
     components: {
-        CardsList,
         CardSelect,
+        CardsList,
         CardCounter
     }
 

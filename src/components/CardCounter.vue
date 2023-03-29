@@ -1,13 +1,19 @@
 <script>
+import { store } from '../store';
 export default {
-    name: 'CardCounter'
+    name: 'CardCounter',
+    data(){
+        return{
+            store
+        }
+    }
 
 }
 </script>
 <template>
-    <div class="row d-flex align-items-center mx-0">
+    <div class="row d-flex align-items-center mx-2">
         <div class="col">
-            <h3 class="px-4">Found 39 card</h3>
+            <h3 class="px-4">Found {{ store.charactersFound }} cards</h3>
         </div>
     </div>
 </template>
